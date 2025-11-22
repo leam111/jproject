@@ -1,0 +1,24 @@
+.navbar{
+
+background-color: rgb(250, 235, 215);
+border-radius:12px;
+display: flex;
+list-style-type: none;
+justify-content: center;
+padding: 6px;
+font-size: x-large;
+}
+
+.links a{
+color:rgb(27, 22, 22);
+font-weight: 250;
+padding:10px;
+text-decoration: none;;
+}
+
+.links a:hover{
+
+color:burlywood;
+
+}
+
