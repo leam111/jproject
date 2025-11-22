@@ -3,15 +3,17 @@ import photo0 from '../assets/photo0.jpg';
 import photo4 from '../assets/photo4.jpeg';
 import photo5 from '../assets/photo5.jpeg';
 import photo6 from '../assets/photo6.jpeg';
-import photo7 from '../assets/photo7.jpeg';
 import photo8 from '../assets/photo8.jpeg';
 import photo9 from '../assets/photo9.jpeg';
-import photo10 from '../assets/photo10.jpeg';
-import photo11 from '../assets/photo11.jpeg'
+import f from '../assets/f.jpg';
+import ffff from '../assets/ffff.jpg';
+import ear from '../assets/ear.jpg'
+import bangle from '../assets/bangle.jpg';
+import gb from '../assets/goldbraceletsstack.jpg';
 import photo13 from '../assets/photo13.jpeg'
 import photo14 from '../assets/photo14.jpeg'
 import photo from '../assets/ringstack.jpeg'
-
+import rep from '../assets/replacement.jpg'
 export default function Home() {
   const featured = [
     {
@@ -24,7 +26,7 @@ export default function Home() {
       id: 2,
       name: "Floral Drops Earring",
       price: 49,
-      image: photo11,
+      image: gb,
     },{
       id: 3,
       name: "Pink Gemstone Stud",
@@ -41,7 +43,7 @@ export default function Home() {
       id: 5,
       name: "Butterfly Bangle",
       price: 49,
-      image:photo4,
+      image:bangle,
     },{
       id: 6,
       name: "Heart T-Bracelet",
@@ -57,14 +59,14 @@ export default function Home() {
  id: 8,
       name: "Blue Crystal Bracelet",
       price: 49,
-      image: photo7,
+      image: f,
       
     },{
 
  id: 9,
       name: "Ring Stack ",
       price: 55,
-      image: photo,
+      image: ear,
 
 
     },{
@@ -72,7 +74,7 @@ export default function Home() {
  id: 10,
       name: "Blue Wings Earring ",
       price: 70,
-      image: photo10,
+      image: rep,
 
 
     },{
@@ -88,7 +90,7 @@ export default function Home() {
  id: 12,
       name: "P-Cascade Earrings",
       price: 65,
-      image: photo14,
+      image: ffff,
 
 
 

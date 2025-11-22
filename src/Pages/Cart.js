@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 import "bootstrap/dist/css/bootstrap.min.css";
+import PromoBanner from "./PromoCode";
 const Cart = () => {
   const { cartItems, removeFromCart, clearCart } = useContext(CartContext);
 
@@ -8,6 +9,7 @@ const Cart = () => {
 
   return (
     <div style={{ padding: "20px" }}>
+     <PromoBanner/>
       <h2>Your Cart 🛒</h2>
 
       {cartItems.length === 0 ? (

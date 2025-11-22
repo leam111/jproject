@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./FeedbackForm.css";
-
+import Socials from "./Socials";
 const FeedbackForm = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -19,6 +19,10 @@ const FeedbackForm = () => {
   };
 
   return (
+
+    <>
+    <Socials/>
+
     <div className="form-container">
       <h2>Feedback Form</h2>
       <form onSubmit={handleSubmit} className="feedback-form">
@@ -51,7 +55,10 @@ const FeedbackForm = () => {
 
         <button type="submit">Submit</button>
       </form>
+
     </div>
+</>
+
   );
 };
 
