@@ -7,12 +7,14 @@ import Products from "./Pages/Products";
 import Contact from "./Pages/Contact";
 import { CartProvider } from "./context/CartContext";
 import Cart from "./Pages/Cart";
-
+import Carousel from "./Pages/Carousel";
 function App() {
   return (
+
     <CartProvider>
       <Router>
         <Navbar />
+        <Carousel/>
         <div style={{ minHeight: "80vh" }}>
           <Routes>
             <Route path="/" element={<Home />} />

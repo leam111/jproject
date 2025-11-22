@@ -24,7 +24,7 @@ export default function Home() {
     },
     {
       id: 2,
-      name: "Floral Drops Earring",
+      name: "Gold Pearly Stack",
       price: 49,
       image: gb,
     },{
@@ -41,7 +41,7 @@ export default function Home() {
     },
 {
       id: 5,
-      name: "Butterfly Bangle",
+      name: "Circle Bangle",
       price: 49,
       image:bangle,
     },{
@@ -57,14 +57,14 @@ export default function Home() {
     },
     {
  id: 8,
-      name: "Blue Crystal Bracelet",
+      name: "Flower Pearl Bracelet",
       price: 49,
       image: f,
       
     },{
 
  id: 9,
-      name: "Ring Stack ",
+      name: "Gold Gems Earring ",
       price: 55,
       image: ear,
 
@@ -72,7 +72,7 @@ export default function Home() {
     },{
 
  id: 10,
-      name: "Blue Wings Earring ",
+      name: "Pink Diamond Ring  ",
       price: 70,
       image: rep,
 
@@ -88,7 +88,7 @@ export default function Home() {
     }
     ,{
  id: 12,
-      name: "P-Cascade Earrings",
+      name: "White-Rose Earring",
       price: 65,
       image: ffff,
 

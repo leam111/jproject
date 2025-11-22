@@ -157,7 +157,7 @@ export default function PromoBanner() {
             {applied ? "Applied ✓" : "Apply"}
           </button>
 
-          {applied && <span className="applied-pill" role="status">20% applied</span>}
+          {applied && <span className="applied-pill" role="status">60% applied</span>}
         </form>
 
         <div className="sparkle s1" aria-hidden />

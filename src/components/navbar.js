@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import '../assets/Navbar.css'
 
+import Carousel from "../Pages/Carousel";
+
+
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 
@@ -8,7 +11,6 @@ const Navbar =()=>{
 const {cartItems}=useContext(CartContext)
 
 return(<>
-
 
 <nav className="navbar">
 <h1 className="logo" style={{padding:'10px'}}>KaLéa</h1>
